@@ -1,86 +1,178 @@
 <!DOCTYPE html>
 <html lang="en">
 
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Document</title>
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
-            integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
-        <link rel="stylesheet"
-            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-        <link rel="stylesheet" href="style.css">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+        integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link rel="stylesheet" href="style.css">
 
-    </head>
+</head>
 
-    <body>
+<body>
 
-        <section class="header-section-page container-fluid bg-black">
-            <footer class="text-center text-success container">
-                <section class="d-flex justify-content-between pt-1 footer">
-                    <div class="d-flex">
-                        <p class="text-white me-4"><span class="text-warning"><i class="fa fa-envelope-open-o"
-                                    aria-hidden="true"> </i>
-                            </span>info@arkade.in</p>
+    <section class="header-section-page container-fluid bg-black">
+        <footer class="text-center text-success container">
+            <section class="d-lg-flex justify-content-between pt-1 footer">
+                <div class="d-flex">
+                    <p class="text-white me-4"><span class="text-warning"><i class="fa fa-envelope-open-o"
+                                aria-hidden="true"> </i>
+                        </span>info@arkade.in</p>
 
-                        <p class="text-white"><span class="text-warning"><i class="fa fa-phone-square"
-                                    aria-hidden="true"></i>
-                            </span>022 28863787</p>
-                    </div>
-                    <div>
-                        <a href="" class="text-warning me-4"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-                        <a href="" class="text-warning me-4"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-                        <a href="" class="text-warning me-4"><i class="fa fa-instagram" aria-hidden="true"></i></a>
-                        <a href="" class="text-warning me-4"> <i class="fa fa-google-plus" aria-hidden="true"></i></a>
-                </section>
-            </footer>
-        </section>
-
-        <nav class="navbar navbar-expand-lg bg-light">
-            <div class="container">
-                <div>
-                    <img src="images/logo.png" alt="">
+                    <p class="text-white"><span class="text-warning"><i class="fa fa-phone-square"
+                                aria-hidden="true"></i>
+                        </span>022 28863787</p>
                 </div>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false"
-                    aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                <div>
+                    <a href="" class="text-warning me-4"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                    <a href="" class="text-warning me-4"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                    <a href="" class="text-warning me-4"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                    <a href="" class="text-warning me-4"> <i class="fa fa-google-plus" aria-hidden="true"></i></a>
+            </section>
+        </footer>
+    </section>
 
-                    <ul class="navbar-nav justify-content-end w-100 ">
-                        <li class="nav-item me-3">
-                            <a class="nav-link active" aria-current="page" href="#">Home</a>
-                        </li>
-                        <li class="nav-item me-3">
-                            <a class="nav-link" href="#">About Us</a>
-                        </li>
-                        <li class="nav-item me-3">
-                            <a class="nav-link" href="#">Our Projects</a>
-                        </li>
-                        <li class="nav-item me-3">
-                            <a class="nav-link" href="#">Investors</a>
-                        </li>
-                        <li class="nav-item me-3">
-                            <a class="nav-link" href="#">Careers</a>
-                        </li>
-                        <li class="nav-item me-3">
-                            <a class="nav-link disabled">Contact Us</a>
-                        </li>
-                        <button type="button" class="btn btn-outline-warning">Schedule a sitte</button>
-                    </ul>
+    <nav class="navbar navbar-expand-lg bg-light">
+        <div class="container">
+            <div>
+                <img src="images/logo.png" alt="">
+            </div>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02"
+                aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+
+                <ul class="navbar-nav justify-content-end w-100 ">
+                    <li class="nav-item me-3">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item me-3">
+                        <a class="nav-link" href="#">About Us</a>
+                    </li>
+                    <li class="nav-item me-3">
+                        <a class="nav-link" href="#">Our Projects</a>
+                    </li>
+                    <li class="nav-item me-3">
+                        <a class="nav-link" href="#">Investors</a>
+                    </li>
+                    <li class="nav-item me-3">
+                        <a class="nav-link" href="#">Careers</a>
+                    </li>
+                    <li class="nav-item me-3">
+                        <a class="nav-link disabled">Contact Us</a>
+                    </li>
+                    <button type="button" class="btn btn-outline-warning">Schedule a sitte</button>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section class="container-fluid  background-img">
+        <div class="owl-carousel owl-theme">
+            <div class="item">
+                <div class="row">
+                    <h4 class="text-warning">
+                        <pre class="mb-4 carousel-text">BUILD ANYTHING WITH US</pre>
+                        <p class="mb-4 carousel-text-2"><b>SED UT PERSPICIATIS <br> UNDE OMINIS ISTE NATUS</b></p>
+                        <button type="button" class="px-4 btn btn-outline-warning text-white"><b>Discover
+                                More</b></button>
+                </div>
+                </h4>
+            </div>
+            <div class="item">
+                <h4 class="text-warning">
+                    <pre class="mb-4 carousel-text">BUILD ANYTHING WITH US</pre>
+                    <p class="mb-4 carousel-text-2"><b>SED UT PERSPICIATIS <br> UNDE OMINIS ISTE NATUS</b></p>
+                    <button type="button" class="px-4 btn btn-outline-warning text-white"><b>Discover
+                            More</b></button>
+                </h4>
+            </div>
+        </div>
+    </section>
+
+    <section class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <h4 class="text-center arkade-grp-text">
+                    <pre>WE ARE ARKADEGROUP</pre>
+                </h4>
+            </div>
+            <div class="col-lg-4 position-relative">
+                <img src="images/02.png" class="sec-2-img" alt="">
+                <div class="position"><img class="positioning-img" src="images/03.png" alt="">
                 </div>
             </div>
-        </nav>
+            <div class="col-lg-6">
+                <div class="about-us">
+                    <h5 class="about-us-title">A Little About Us</h5>
+                    <p class="about-us-txt">There's more to us tahn meets the eye.</p>
+                </div>
+                <p class="anout-us-para">It is quite easy to define an organization solely by what services it
+                    offers. More often
+                    than not,
+                    what an entity does in the most commercial sensebecomes the sole descriptor for its purpose of
+                    existence, i.e. except for thosewho choose to add to this description by transcending their
+                    traditional role. At Arkade Group, there is more to us than what meets the eye. What was started as
+                    a passionate drive to craft abodes by Shri Mangilal R. Jain in 1984 has now turned into much more
+                    than just that. Led by people who believe in the power of passion and leaps of faith, we have become
+                    Life Investors, multiplying life &
+                    providing contentment.
+                </p>
+                <div class=" vision-font d-flex">
+                    <p class=" px-1"><i class="fa fa-certificate" aria-hidden="true"></i><b> Vision-Mission
+                        </b></p>
+                    <p class=" px-1"><i class="fa fa-certificate" aria-hidden="true"></i><b> The core Team
+                        </b></p>
+                    <p class=" px-1"><i class="fa fa-certificate" aria-hidden="true"></i><b> Milestones
+                        </b></p>
+                    <p class=" px-1"><i class="fa fa-certificate" aria-hidden="true"></i><b> The Managment
+                        </b></p>
+                </div>
+            </div>
+            <div class="col-lg-6">
 
-        <section class="container-fluid  background-img">
+            </div>
 
-        </section>
+        </div>
 
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
-            integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous">
-            </script>
-    </body>
+    </section>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+        integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+        integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous">
+        </script>
+    <script>
+        $('.owl-carousel').owlCarousel({
+            loop: true,
+            margin: 10,
+            nav: true,
+            responsive: {
+                0: {
+                    items: 1
+                },
+                600: {
+                    items: 1
+                },
+                1000: {
+                    items: 1
+                }
+            }
+        })
+    </script>
+</body>
 
 </html>

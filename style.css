@@ -6,3 +6,142 @@
   /* width: 200vh; */
   height: 100vh;
 }
+
+/* .carousel-item {
+  margin-top: 53vh;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+  margin-top: 40vh;
+} */
+
+.carousel-text {
+  word-spacing: 10px;
+  letter-spacing: 10px;
+  font-size: 15px;
+
+}
+
+.item {
+  margin-top: 30vh;
+  margin-left: 20vh;
+}
+
+.owl-carousel .owl-nav button.owl-prev,
+.owl-carousel .owl-nav button.owl-next {
+  background-color: rgba(145, 147, 148, 0);
+  border: solid 2px rgb(255, 255, 255);
+  border-radius: 50%;
+  height: 35px;
+  width: 35px;
+  color: white;
+  text-align: center;
+}
+
+.owl-nav {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  top: -125px;
+}
+
+.carousel-text-2 {
+  font-size: 40px;
+  color: white;
+}
+
+.arkade-grp-text {
+  word-spacing: 10px;
+  letter-spacing: 10px;
+  margin-top: 80px;
+}
+
+.positioning-img {
+  width: 20vh;
+  position: relative;
+  left: 72%;
+  bottom: 15vh
+}
+
+.about-us-txt {
+  font-size: 30px;
+  margin-left: 10px;
+}
+
+.about-us-title {
+  margin-left: 10px;
+}
+
+.about-us {
+  border-left: 9px solid yellow;
+  margin-left: 100px;
+}
+
+.anout-us-para {
+  text-align: justify;
+  margin-left: 100px;
+
+}
+
+.vision-font {
+  margin-left: 100px;
+}
+
+@media only screen and (max-width: 600px) {
+  .carousel-text-2 {
+    font-size: 20px;
+    color: white;
+    text-align: center;
+  }
+
+  .discover-btn {
+    width: 100%;
+  }
+
+  .carousel-text {
+    word-spacing: 10px;
+    letter-spacing: 5px;
+    font-size: 15px;
+    text-align: center;
+
+  }
+
+  .item {
+    margin-top: 30vh;
+    margin-left: 0vh;
+  }
+
+  .arkade-grp-text {
+    word-spacing: 10px;
+    letter-spacing: 5px;
+    margin-top: 80px;
+  }
+
+  .sec-2-img {
+    width: 40vh;
+    margin-left: 2px;
+  }
+
+  .positioning-img {
+    width: 20vh;
+    position: relative;
+    left: 55%;
+    bottom: 15vh
+  }
+
+  .about-us {
+    border-left: 9px solid yellow;
+    margin-left: 0px;
+  }
+
+  .anout-us-para {
+    text-align: justify;
+    margin-left: 18px;
+
+  }
+
+  .vision-font {
+    margin-left: 18px;
+  }
+}
