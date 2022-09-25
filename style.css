@@ -64,16 +64,23 @@
   bottom: 15vh
 }
 
-.about-us-txt {
+.about-us-txt,
+.life-investor-txt {
   font-size: 30px;
   margin-left: 10px;
 }
 
-.about-us-title {
+.about-us-title,
+.life-investor-title {
   margin-left: 10px;
 }
 
-.about-us {
+.life-investor-title {
+  font-size: 50px;
+}
+
+.about-us,
+.life-investor {
   border-left: 9px solid rgb(255, 115, 0);
   margin-left: 100px;
 }
@@ -131,6 +138,19 @@
   text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px rgb(0, 0, 2)
 }
 
+.life-investor-heading {
+  letter-spacing: 10px;
+  margin-left: 10px;
+}
+
+.life-investor-heading {
+  font-size: 18px;
+}
+
+/* .take-a-look-btn-m {
+  visibility: hidden;
+} */
+
 @media only screen and (max-width: 600px) {
   .carousel-text-2 {
     font-size: 20px;
@@ -178,7 +198,8 @@
     margin-left: 0px;
   }
 
-  .anout-us-para {
+  .anout-us-para,
+  .life-investor-para {
     text-align: justify;
     margin-left: 18px;
 
@@ -196,10 +217,6 @@
     padding-left: 25px;
   }
 
-  /* .our-proj-img {
-    width: 12vh;
-  } */
-
   .our-proj-img {
     width: 11vh;
   }
@@ -209,9 +226,14 @@
     visibility: hidden;
   }
 
+  .our-project {
+    position: relative;
+  }
+
   .buttons-our-proj {
-    left: 42px;
-    top: 284%;
+    position: absolute;
+    left: 71px;
+    top: 100px;
   }
 
   .our-projects-heading-txt {
@@ -224,6 +246,7 @@
     text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px rgb(0, 0, 2);
     font-size: 10px;
   }
+
 
 
 }
