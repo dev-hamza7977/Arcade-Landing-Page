@@ -123,6 +123,14 @@
   top: 220%;
 }
 
+.img-txt {
+  position: absolute;
+  bottom: -1%;
+  padding-left: 10px;
+  color: #ED850A;
+  text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px rgb(0, 0, 2)
+}
+
 @media only screen and (max-width: 600px) {
   .carousel-text-2 {
     font-size: 20px;
@@ -193,7 +201,7 @@
   } */
 
   .our-proj-img {
-    width: 13vh;
+    width: 11vh;
   }
 
   .line {
@@ -203,10 +211,19 @@
 
   .buttons-our-proj {
     left: 42px;
-    top: 329%;
+    top: 284%;
   }
 
   .our-projects-heading-txt {
     text-align: center;
   }
+
+  .img-txt {
+    padding-left: 10px;
+    color: #ED850A;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px rgb(0, 0, 2);
+    font-size: 10px;
+  }
+
+
 }
