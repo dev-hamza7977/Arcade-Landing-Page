@@ -7,9 +7,8 @@
   height: 100vh;
 }
 
-.body {
-  font-family: "Spartan";
-  padding-top: 50px;
+body {
+  padding-top: 20px;
 }
 
 .carousel-text {
@@ -121,7 +120,7 @@
 .buttons-our-proj {
   position: absolute;
   left: 1151px;
-  top: 220%;
+  top: 213%;
 }
 
 .img-txt {
@@ -210,6 +209,14 @@ hr {
   color: white;
   padding: 10px;
   font-size: 15px;
+}
+
+.owl-item {
+  margin: 0px;
+}
+
+#owl-2 {
+  margin: 0px;
 }
 
 /* .take-a-look-btn-m {
