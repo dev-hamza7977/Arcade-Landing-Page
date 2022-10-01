@@ -18,9 +18,9 @@
 </head>
 
 <body>
-    <section class="header-section-page container-fluid bg-black">
-        <footer class="text-center text-success container">
-            <section class="d-lg-flex justify-content-between pt-1 footer">
+    <header class="fixed-top">
+        <section class="header-section-page container-fluid bg-black text-center text-success pt-2">
+            <div class="d-flex justify-content-between">
                 <div class="d-flex">
                     <p class="text-white me-4"><span class="text-warning"><i class="fa fa-envelope-open-o"
                                 aria-hidden="true"> </i>
@@ -36,50 +36,51 @@
                     <a href="" class="text-warning me-4"><i class="fa fa-instagram" aria-hidden="true"></i></a>
                     <a href="" class="text-warning me-4"> <i class="fa fa-google-plus" aria-hidden="true"></i></a>
                 </div>
-            </section>
-        </footer>
-    </section>
-
-    <section>
-        <nav class="navbar navbar-expand-lg bg-light">
-            <div class="container">
-                <div>
-                    <img src="images/logo.png" class="logo-img" alt="logo-img">
-                </div>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false"
-                    aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-
-                    <ul class="navbar-nav justify-content-end w-100 ">
-                        <li class="nav-item me-3">
-                            <a class="nav-link active text-warning" aria-current="page" href="#">Home</a>
-                        </li>
-                        <li class="nav-item me-3">
-                            <a class="nav-link text-dark" href="#">About Us</a>
-                        </li>
-                        <li class="nav-item me-3">
-                            <a class="nav-link text-dark" href="#">Our Projects</a>
-                        </li>
-                        <li class="nav-item me-3">
-                            <a class="nav-link text-dark" href="#">Investors</a>
-                        </li>
-                        <li class="nav-item me-3">
-                            <a class="nav-link text-dark" href="#">Careers</a>
-                        </li>
-                        <li class="nav-item me-3">
-                            <a class="nav-link text-dark" href="#">Contact Us</a>
-                        </li>
-                        <button type="button" class="btn btn-outline-warning">Schedule a site visit</button>
-                    </ul>
-                </div>
             </div>
-        </nav>
-    </section>
+        </section>
+
+        <section>
+            <nav class="navbar navbar-expand-lg bg-light">
+                <div class="container-fluid">
+                    <div>
+                        <img src="images/logo.png" class="logo-img" alt="logo-img">
+                    </div>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+
+                        <ul class="navbar-nav justify-content-end w-100 ">
+                            <li class="nav-item me-3">
+                                <a class="nav-link active text-warning" aria-current="page" href="#">Home</a>
+                            </li>
+                            <li class="nav-item me-3">
+                                <a class="nav-link text-dark" href="#">About Us</a>
+                            </li>
+                            <li class="nav-item me-3">
+                                <a class="nav-link text-dark" href="#">Our Projects</a>
+                            </li>
+                            <li class="nav-item me-3">
+                                <a class="nav-link text-dark" href="#">Investors</a>
+                            </li>
+                            <li class="nav-item me-3">
+                                <a class="nav-link text-dark" href="#">Careers</a>
+                            </li>
+                            <li class="nav-item me-3">
+                                <a class="nav-link text-dark" href="#">Contact Us</a>
+                            </li>
+                            <button type="button" class="btn btn-outline-warning">Schedule a site visit</button>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </section>
+    </header>
+
     <section class="container-fluid  background-img">
-        <div class="owl-carousel owl-theme">
+        <div class="owl-carousel owl-one owl-theme">
             <div class="item">
                 <div class="row">
                     <h4 class="text-warning">
@@ -165,30 +166,47 @@
                 <button type="button" class="btn btn-outline-dark btn-lg">UPCOMING</button>
             </div>
         </div>
-        <div class="d-flex our-proj-img-sec justify-content-center p-5">
-            <div class="position-relative">
-                <img class="our-proj-img" src="images/04.png" alt="our-proj-img-1">
-                <b>
-                    <p class="img-txt">ARKADE ADORINA<br><span class="text-white">GOREGAON (E)</span></p>
-                </b>
+
+        <div class="owl-carousel owl-two owl-theme justify-content-center p-5">
+            <div class="item" id="owl-2">
+                <div class="position-relative">
+                    <img class="our-proj-img" src="images/04.png" alt="our-proj-img-1">
+                    <b>
+                        <p class="img-txt">ARKADE ADORINA<br><span class="text-white">GOREGAON (E)</span></p>
+                    </b>
+                </div>
             </div>
-            <div class="position-relative">
-                <img class="our-proj-img" src="images/05.png" alt="our-proj-img-2">
-                <b>
-                    <p class="img-txt">JEEVAN SARITA<br><span class="text-white">VIRLE PARLE (E)</span></p>
-                </b>
+            <div class="item" id="owl-2">
+                <div class="position-relative">
+                    <img class="our-proj-img" src="images/05.png" alt="our-proj-img-2">
+                    <b>
+                        <p class="img-txt">JEEVAN SARITA<br><span class="text-white">VIRLE PARLE (E)</span></p>
+                    </b>
+                </div>
             </div>
-            <div class="position-relative">
-                <img class="our-proj-img" src="images/06.png" alt="our-proj-img-3">
-                <b>
-                    <p class="img-txt">FORTUNA<br><span class="text-white">FORJETT STREET</span></p>
-                </b>
+            <div class="item" id="owl-2">
+                <div class="position-relative">
+                    <img class="our-proj-img" src="images/06.png" alt="our-proj-img-3">
+                    <b>
+                        <p class="img-txt">FORTUNA<br><span class="text-white">FORJETT STREET</span></p>
+                    </b>
+                </div>
             </div>
-            <div class="position-relative">
-                <img class="our-proj-img" src="images/07.png" alt="our-proj-img-4">
-                <b>
-                    <p class="img-txt">OM KUSHAL<br><span class="text-white">VIRLE PARLE(E)</span></p>
-                </b>
+            <div class="item" id="owl-2">
+                <div class="position-relative">
+                    <img class="our-proj-img" src="images/07.png" alt="our-proj-img-4">
+                    <b>
+                        <p class="img-txt">OM KUSHAL<br><span class="text-white">VIRLE PARLE(E)</span></p>
+                    </b>
+                </div>
+            </div>
+            <div class="item" id="owl-2">
+                <div class="position-relative">
+                    <img class="our-proj-img" src="images/07.png" alt="our-proj-img-4">
+                    <b>
+                        <p class="img-txt">OM KUSHAL<br><span class="text-white">VIRLE PARLE(E)</span></p>
+                    </b>
+                </div>
             </div>
         </div>
     </section>
@@ -200,7 +218,8 @@
                     <h1 class="life-investor-title">Life Investors,</h1>
                     <p class="life-investor-txt">rather than developers<span class="text-warning">.</span></p>
                 </div>
-                <p class="life-investor-para mx-2 mt-5">All our dear to us. some, however, are closest to our heart.They
+                <p class="life-investor-para mx-2 mt-5">All our dear to us. some, however, are closest to our
+                    heart.They
                     form
                     a
                     source
@@ -237,7 +256,8 @@
                                 <h5 class="text-white text-carousel"><span class="span-2 text-warning">Our</span>
                                     Testimonial
                                 </h5>
-                                <p class="text-white carousel-para">Lorem ipsum dolor, sit amet consectetur adipisicing
+                                <p class="text-white carousel-para">Lorem ipsum dolor, sit amet consectetur
+                                    adipisicing
                                     elit.
                                     Iusto,
                                     tempora facilis? <br>
@@ -280,9 +300,9 @@
         </div>
     </section>
     <section class="contact container-fluid">
-        <div class="row">
-            <div class="col-lg-6 bg-light p-5">
-                <div class="contact-form p-5">
+        <div class="row justify-content-center  bg-light">
+            <div class="col-lg-5 p-5">
+                <div class="contact-form">
                     <div class="form-floating mb-3">
                         <input type="name" class="form-control" id="floatingInput" placeholder="Your Name">
                         <label for="floatingInput" class="form-text">Name</label>
@@ -308,12 +328,12 @@
                     </button>
                 </div>
             </div>
-            <div class="col-lg-6 p-5">
+            <div class="col-lg-4">
                 <div class="p-5">
 
                     <div class="d-flex">
                         <div>
-                            <i class="fa fa-building contact-font border border-warning rounded-circle p-3 bg-warning fs-3 text-white"
+                            <i class="fa fa-building contact-font border border-warning rounded-circle p-2 bg-warning fs-4 text-white"
                                 aria-hidden="true"></i>
                         </div>
                         <div>
@@ -328,7 +348,7 @@
                     <br>
                     <div class="d-flex">
                         <div>
-                            <i class="fa fa-phone contact-font-2 border border-warning rounded-circle p-3 bg-warning fs-3 text-white"
+                            <i class="fa fa-phone contact-font-2 border border-warning rounded-circle p-2 bg-warning fs-4 text-white"
                                 aria-hidden="true"></i>
                         </div>
                         <div>
@@ -340,7 +360,7 @@
                     <br>
                     <div class="d-flex">
                         <div>
-                            <i class="fa fa-fax contact-font-3 border border-warning rounded-circle p-3 bg-warning fs-3 text-white"
+                            <i class="fa fa-fax contact-font-3 border border-warning rounded-circle p-2 bg-warning fs-4 text-white"
                                 aria-hidden="true"></i>
                         </div>
                         <div>
@@ -353,7 +373,7 @@
                     <br>
                     <div class="d-flex">
                         <div>
-                            <i class="fa fa-envelope contact-font-4 border border-warning rounded-circle p-3 bg-warning fs-3 text-white"
+                            <i class="fa fa-envelope contact-font-4 border border-warning rounded-circle p-2 bg-warning fs-4 text-white"
                                 aria-hidden="true"></i>
                         </div>
                         <div>
@@ -365,7 +385,7 @@
                     <br>
                     <div class="d-flex">
                         <div>
-                            <i class="fa fa-globe contact-font-5 border border-warning rounded-circle p-3 bg-warning fs-3 text-white"
+                            <i class="fa fa-globe contact-font-5 border border-warning rounded-circle p-2 bg-warning fs-4 text-white"
                                 aria-hidden="true"></i>
                         </div>
                         <div>
@@ -379,7 +399,7 @@
             </div>
         </div>
     </section>
-    <section class="footer mt-5">
+    <section class="footer">
         <footer class="bg-black text-white p-5">
             <div class="container">
                 <div class="row">
@@ -420,7 +440,8 @@
                         <div class="d-flex mb-4">
                             <div><i class="fa fa-mobile fs-4 text-warning" aria-hidden="true"></i></div>
                             <div>
-                                <h4 class="footer-inner-font mx-2"><b class="text-primary footer-font "></b> 200 2886
+                                <h4 class="footer-inner-font mx-2"><b class="text-primary footer-font "></b> 200
+                                    2886
                                     3787 / 92228 92229
                                 </h4>
                             </div>
@@ -428,7 +449,8 @@
                         <div class="d-flex mb-4">
                             <div><i class="fa fa-fax fs-4 text-warning" aria-hidden="true"></i></div>
                             <div>
-                                <h4 class="footer-inner-font mx-2"><b class="text-primary footer-font "></b> 022 2887
+                                <h4 class="footer-inner-font mx-2"><b class="text-primary footer-font "></b> 022
+                                    2887
                                     4742</h4>
                             </div>
                         </div>
@@ -464,7 +486,7 @@
         integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous">
         </script>
     <script>
-        $('.owl-carousel').owlCarousel({
+        $('.owl-one').owlCarousel({
             loop: true,
             margin: 10,
             nav: true,
@@ -477,6 +499,25 @@
                 },
                 1000: {
                     items: 1
+                }
+            }
+        })
+
+        $('.owl-two').owlCarousel({
+            loop: true,
+            margin: 10,
+            nav: true,
+            stagePadding: 0,
+            margin: 0,
+            responsive: {
+                0: {
+                    items: 2
+                },
+                600: {
+                    items: 1
+                },
+                1000: {
+                    items: 4
                 }
             }
         })

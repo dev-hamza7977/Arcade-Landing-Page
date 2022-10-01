@@ -7,15 +7,14 @@
   height: 100vh;
 }
 
-.body {
-  font-family: 'Spartan';
+body {
+  padding-top: 20px;
 }
 
 .carousel-text {
   word-spacing: 10px;
   letter-spacing: 10px;
   font-size: 15px;
-
 }
 
 .item {
@@ -56,7 +55,7 @@
   width: 20vh;
   position: relative;
   left: 72%;
-  bottom: 15vh
+  bottom: 15vh;
 }
 
 .about-us-txt,
@@ -83,7 +82,6 @@
 .anout-us-para {
   text-align: justify;
   margin-left: 100px;
-
 }
 
 .vision-font {
@@ -92,6 +90,11 @@
 
 .sec-2-fa {
   font-size: 35px;
+}
+
+.sec-2-img {
+  outline: 8px solid rgb(255, 157, 0);
+  outline-offset: -32px;
 }
 
 .our-projects {
@@ -104,7 +107,7 @@
   width: 130px;
   height: 5px;
   background: #191970;
-  right: 630px;
+  right: 722px;
   top: 68px;
   position: absolute;
 }
@@ -112,31 +115,37 @@
 .line {
   font-family: sans-serif;
   margin: 100px auto;
-  color: #228B22;
+  color: #228b22;
   text-align: center;
   font-size: 30px;
-  max-width: 600px;
+  max-width: 767px;
   position: relative;
 }
 
 .buttons-our-proj {
   position: absolute;
   left: 1151px;
-  top: 220%;
+  top: 213%;
 }
 
 .img-txt {
   position: absolute;
   bottom: -1%;
   padding-left: 10px;
-  color: #ED850A;
-  text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px rgb(0, 0, 2)
+  color: #ed850a;
+  text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px rgb(0, 0, 2);
 }
 
 .life-investor-heading {
   letter-spacing: 10px;
   margin-left: 10px;
 }
+
+.life-investor-img {
+  outline: 8px solid rgb(255, 238, 0);
+  outline-offset: -32px;
+}
+
 
 .life-investor-heading {
   font-size: 18px;
@@ -174,8 +183,9 @@ hr {
 }
 
 .footer-inner-font {
-  font-size: 10px;
-  font-family: 'Spartan';
+  font-size: 13px;
+  font-family: "Spartan";
+  line-height: 22px;
 }
 
 .contact-para,
@@ -193,13 +203,12 @@ hr {
 .nav-link,
 .ark-rights,
 .we-are-text {
-  font-family: 'Spartan';
+  font-family: "Spartan";
 }
 
 .nav-link {
-  font-weight: bold
+  font-weight: bold;
 }
-
 
 .contact-para {
   padding-left: 50px;
@@ -213,12 +222,19 @@ hr {
   font-size: 15px;
 }
 
+.owl-item {
+  margin: 0px;
+}
+
+#owl-2 {
+  margin: 0px;
+}
 
 /* .take-a-look-btn-m {
   visibility: hidden;
 } */
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 767px) {
   .carousel-text-2 {
     font-size: 20px;
     color: white;
@@ -234,7 +250,6 @@ hr {
     letter-spacing: 5px;
     font-size: 15px;
     text-align: center;
-
   }
 
   .item {
@@ -251,13 +266,14 @@ hr {
   .sec-2-img {
     width: 40vh;
     margin-left: 2px;
+
   }
 
   .positioning-img {
     width: 20vh;
     position: relative;
     left: 55%;
-    bottom: 15vh
+    bottom: 15vh;
   }
 
   .about-us {
@@ -269,7 +285,6 @@ hr {
   .life-investor-para {
     text-align: justify;
     margin-left: 18px;
-
   }
 
   .vision-font {
@@ -309,7 +324,7 @@ hr {
 
   .img-txt {
     padding-left: 10px;
-    color: #ED850A;
+    color: #ed850a;
     text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px rgb(0, 0, 2);
     font-size: 10px;
   }
@@ -317,6 +332,4 @@ hr {
   .contact-form {
     padding: 0px;
   }
-
-
 }
