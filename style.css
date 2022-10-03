@@ -146,7 +146,6 @@ body {
   outline-offset: -32px;
 }
 
-
 .life-investor-heading {
   font-size: 18px;
 }
@@ -231,7 +230,6 @@ hr {
   padding: 48px;
 }
 
-
 /* .take-a-look-btn-m {
   visibility: hidden;
 } */
@@ -240,6 +238,14 @@ hr {
   .carousel-text-2 {
     font-size: 20px;
     color: white;
+    text-align: center;
+  }
+
+  .fa-social-media {
+    font-size: 8px;
+  }
+
+  .owl-text {
     text-align: center;
   }
 
@@ -268,7 +274,6 @@ hr {
   .sec-2-img {
     width: 40vh;
     margin-left: 2px;
-
   }
 
   .positioning-img {
